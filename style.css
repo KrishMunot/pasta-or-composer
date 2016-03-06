@@ -1,0 +1,72 @@
+body {
+	text-align:center;
+  background: url('bg.gif') no-repeat fixed center center;
+}
+/* big green text */
+body h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  line-height: 150px;
+  font-size: 150px;
+  margin: 0 0 43px 0;
+  text-align:center;
+  color:#019243;
+}
+/* pasta/composer buttons */
+body h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 23px 0;
+  color:#CF2B36;
+}
+/* answer (right/wrong) */
+body h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 23px 0;
+  color:#CF2B36;
+}
+/* score text */
+body aside {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  color:#CF2B36;
+}
+/* center everything on screen */
+#content {
+  position: absolute;
+  top:20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width:60%;
+}
+#answer {
+  visibility:hidden;
+  color:#fff;
+  background-color:#CF2B36;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:0px;
+}
+#score {
+  visibility:hidden;
+  color:#000;
+  background-color:#d0d0d0;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+/* pasta/composer buttons */
+.col-sm-6 {text-align:right;}
+.col-sm-5 {text-align:left;}
