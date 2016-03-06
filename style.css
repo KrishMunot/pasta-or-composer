@@ -70,3 +70,14 @@ body aside {
 /* pasta/composer buttons */
 .col-sm-6 {text-align:right;}
 .col-sm-5 {text-align:left;}
+
+/* if mobile */
+@media only screen and (max-width: 626px) {
+  #content {width:90%; top:5%;}
+  body h1 {font-size:4em; line-height:0.5em;}
+  body h3 {font-size:1.5em; line-height:1.2em;}
+  body h2 {font-size:1.5em; line-height:0.2em;}
+  body aside {font-size:1em; line-height:1em;}
+  .col-sm-6 {text-align:center;}
+  .col-sm-5 {text-align:center;}
+}
